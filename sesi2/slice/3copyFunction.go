@@ -4,9 +4,9 @@ import "fmt"
 
 func main() {
 
-	var fruits1 = []string("apple", "banana", "mango")
+	var fruits1 = []string{"apple", "banana", "mango"}
 
-	var fruits2 = []string("durian", "pineapple", "starfruit")
+	var fruits2 = []string{"durian", "pineapple", "starfruit"}
 
 	nn := copy(fruits1, fruits2)
 

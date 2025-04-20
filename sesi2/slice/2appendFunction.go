@@ -22,9 +22,9 @@ func main() {
 	//fmt.Printf("%#v", fruits)
 
 	//append function with ellipsis
-	var fruits1 = []string("apple", "banana", "mango")
+	var fruits1 = []string{"apple", "banana", "mango"}
 
-	var fruits2 = []string("durian", "pineapple", "starfruit")
+	var fruits2 = []string{"durian", "pineapple", "starfruit"}
 
 	fruits1 = append(fruits1, fruits2...)
 
